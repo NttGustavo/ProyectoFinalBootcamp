@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ProyectoFinal</string>
+    <string name="hint_name">Nombre completo</string>
+    <string name="hint_confirm">Confirmar password</string>
+    <string name="hint_phone">Número de celular</string>
+    <string name="hint_mail">Email</string>
+    <string name="hint_question">Escriba una pregunta verificadora</string>
+    <string name="hint_answer">Escriba una respuesta verificadora</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_signin">Iniciar Sesión</string>
+    <string name="btn_signup">Registrarse</string>
+    <string name="remember_me">Recordarme</string>
+    <string name="forgot_pswd">Olvidé mi contraseña</string>
+    <string name="logo_principal">Logo Principal</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="ask_user">Indique el correo del usuario</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="forgot_password">OLVIDÉ MI CONTRASEÑA</string>
+    <string name="btn_send_mail">Enviar Solicitud</string>
+    <string name="forgot_password_title">Ingrese el correo del usuario, para restablecer la contraseña</string>
+    <string name="forgot_password_question">Responda la pregunta verificadora</string>
+    <string name="btn_change_password">Cambiar contraseña</string>
+    <string name="btn_verification">Verificar</string>
+    <string name="hint_respuesta">respuesta</string>
+    <string name="forgto_pswd_question">Pregunta verificadora</string>
+    <string name="hint_new_password">Nueva contraseña</string>
+    <string name="forgot_new_password">Ingrese la nueva contraseña</string>
+</resources>
