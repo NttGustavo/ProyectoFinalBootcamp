@@ -33,4 +33,5 @@
     <string name="forgto_pswd_question">Pregunta verificadora</string>
     <string name="hint_new_password">Nueva contraseña</string>
     <string name="forgot_new_password">Ingrese la nueva contraseña</string>
+    <string name="remember_password">Recuerde que la contrasñea debe contener al menos 6 caracteres</string>
 </resources>
