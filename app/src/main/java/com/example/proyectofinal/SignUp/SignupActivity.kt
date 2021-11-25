@@ -11,7 +11,6 @@ class SignupActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySignupBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //setContentView(R.layout.activity_signup)
         binding = ActivitySignupBinding.inflate(layoutInflater)
         setContentView(binding.root)
         var firebase = Firebase(this)
@@ -26,7 +25,7 @@ class SignupActivity : AppCompatActivity() {
             val confirmar_password = binding.editTextConfirmPasswordSignup.text.toString()
             val pregunta = binding.editTextQuestionVerifier.text.toString()
             val respuesta = binding.editTextAnswerVerifier.text.toString()
-            val newUser = NewUser(nombre, email, telefono, password, pregunta, respuesta)
+            val newUser = NewUser(nombre, email, telefono, password, pregunta, respuesta,"https://rciminternet.com/wp-content/uploads/2019/04/usuario.png")
             firebase.insertNewUser(newUser, confirmar_password)
         }
     }

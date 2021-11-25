@@ -34,4 +34,16 @@
     <string name="hint_new_password">Nueva contraseña</string>
     <string name="forgot_new_password">Ingrese la nueva contraseña</string>
     <string name="remember_password">Recuerde que la contrasñea debe contener al menos 6 caracteres</string>
+
+
+    <string name="action_rate">Rate</string>
+    <string name="action_share">Share</string>
+    <string name="backdrop_title">PC Fantastic</string>
+    <string name="backdrop_subtitle">This Season Top 10 PC</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_from">Dirección: Sin selección</string>
+    <string name="label_to">Dirección: Sin selección</string>
+    <string name="android_sdk_places_api_key">AIzaSyC1MjBS_hcmSoEjxCmm4JjoAVwsWBmPlco</string>
+
 </resources>

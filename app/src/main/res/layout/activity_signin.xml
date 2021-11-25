@@ -21,6 +21,7 @@
         app:srcCompat="@drawable/logo_principal" />
 
     <EditText
+        android:text="gustavo.r.lamadrid@gmail.com"
         android:id="@+id/editTextEmailSignin"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -42,6 +43,7 @@
         android:importantForAutofill="no" />
 
     <EditText
+        android:text="123456"
         android:id="@+id/editTextPasswordSignin"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

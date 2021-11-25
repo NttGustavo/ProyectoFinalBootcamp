@@ -34,5 +34,9 @@ class TextUtils {
         fun isNewUserValidated(isEmpty: Boolean, isLong: Boolean, containEmail: Boolean, passwordSame: Boolean, isPhone: Boolean) : Boolean{
             return !isEmpty && isLong && containEmail && passwordSame && isPhone
         }
+
+        fun correccionEncrypt(encriptado: String):String{
+            return encriptado.replace("/","9")
+        }
     }
 }
