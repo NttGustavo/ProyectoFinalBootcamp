@@ -14,9 +14,6 @@ class TextUtils {
             return email.contains("@")
         }
 
-        fun userisValidated(isEmpty: Boolean, isLong: Boolean, containEmail:Boolean):Boolean{
-            return !isEmpty && isLong && containEmail
-        }
 
         fun isEmptyNewUser(nombre: String, email: String, telefono: String, password: String, confirm_password: String, pregunta: String, respuesta:String): Boolean {
             return nombre.isEmpty() || email.isEmpty() || telefono.isEmpty() || password.isEmpty() || confirm_password.isEmpty() || pregunta.isEmpty() || respuesta.isEmpty()
@@ -24,15 +21,11 @@ class TextUtils {
 
 
         fun isPasswordSame(password: String, confirm_password: String): Boolean{
-            return password.equals(confirm_password)
+            return password == confirm_password
         }
 
         fun isPhone(telefono: String): Boolean{
             return telefono.length == 9
-        }
-
-        fun isNewUserValidated(isEmpty: Boolean, isLong: Boolean, containEmail: Boolean, passwordSame: Boolean, isPhone: Boolean) : Boolean{
-            return !isEmpty && isLong && containEmail && passwordSame && isPhone
         }
 
         fun correccionEncrypt(encriptado: String):String{

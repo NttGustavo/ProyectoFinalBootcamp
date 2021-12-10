@@ -45,5 +45,31 @@
     <string name="label_from">Dirección: Sin selección</string>
     <string name="label_to">Dirección: Sin selección</string>
     <string name="android_sdk_places_api_key">AIzaSyC1MjBS_hcmSoEjxCmm4JjoAVwsWBmPlco</string>
+    <string name="label_direccion_inicial">Modificar Dirección Inicial</string>
+
+    <string name="nombre_lugar">%1$s</string>
+    <string name="localidad_lugar">Localidad: %1$s</string>
+    <string name="duracion_lugar">Duración: %1$s</string>
+    <string name="loading">Loading...</string>
+    <string name="empty_favoritos">No hay sitios favoritos guardados</string>
+
+    <string name="job_success">Job Success</string>
+    <string name="ui_ux_designer">UI/UX Designer</string>
+    <string name="my_desc">Doing at the sweet spot between aesthetics and elegance to give life to your brand.My opinion belong to nobody but myself.</string>
+    <string name="about_me">About Me</string>
+    <string name="contact">Contact</string>
+    <string name="skills">Skills</string>
+    <string name="ratings">Star Ratings</string>
+    <string name="samplereview">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium bibendum sapien, ut euismod massa. Duis convallis sem sed turpis elementum auctor.</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
+    <string name="about_app">Sobre la aplicacion</string>
+    <string name="app_info">Esta aplicación permitirá conocer a los usuarios diversos mapas de las mejores zonas turísticas del Perú. Así como las rutas de viajes que se pueden realizar.</string>
+    <string name="localidad_usuario">Lima, Perú</string>
+    <string name="titulo_redes_sociales">Redes Sociales</string>
+    <string name="instagram">INSTAGRAM</string>
+    <string name="twitter">TWITTER</string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="youtube">YOUTUBE</string>
+    <string name="titulo_perfil">Perfil</string>
 
 </resources>

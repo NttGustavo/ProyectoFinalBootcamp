@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="@dimen/card_pc_radius"
+        card_view:layout_constraintBottom_toBottomOf="parent"
+        card_view:layout_constraintEnd_toEndOf="parent"
+        card_view:layout_constraintStart_toStartOf="parent"
+        card_view:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgLugar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/pc_cover_height"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/txtNombreLugar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgLugar"
+                android:paddingLeft="@dimen/pc_title_padding"
+                android:paddingTop="@dimen/pc_title_padding"
+                android:paddingRight="@dimen/pc_title_padding"
+                android:textColor="@color/album_title"
+                android:textSize="@dimen/pc_title" />
+
+            <TextView
+                android:id="@+id/txtDepartamentoLugar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtNombreLugar"
+                android:paddingLeft="@dimen/pc_title_padding"
+                android:paddingRight="@dimen/pc_title_padding"
+                android:paddingBottom="@dimen/songs_count_padding_bottom"
+                android:textSize="@dimen/songs_count" />
+
+            <TextView
+                android:id="@+id/txtDuracionLugar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtDepartamentoLugar"
+                android:paddingLeft="@dimen/pc_title_padding"
+                android:paddingRight="@dimen/pc_title_padding"
+                android:paddingBottom="@dimen/songs_count_padding_bottom"
+                android:textSize="@dimen/songs_count" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingReseniaButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="24dp"
+                android:layout_toStartOf="@+id/floatingDeletingButton"
+                android:background="@color/quantum_bluegrey50"
+                android:clickable="true"
+                android:elevation="7dp"
+                android:focusable="true"
+                android:src="@drawable/ic_baseline_edit_24" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingDeletingButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="24dp"
+                android:background="@color/quantum_bluegrey50"
+                android:clickable="true"
+                android:elevation="7dp"
+                android:focusable="true"
+                android:src="@drawable/ic_baseline_delete_24" />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

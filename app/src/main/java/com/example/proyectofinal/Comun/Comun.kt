@@ -1,9 +1,9 @@
 package com.example.proyectofinal.Comun
 
-import com.example.proyectofinal.SignUp.NewUser
+import com.example.proyectofinal.Models.User
 
 class Comun {
     companion object{
-        lateinit var currentUser: NewUser
+        lateinit var currentUser: User
     }
 }

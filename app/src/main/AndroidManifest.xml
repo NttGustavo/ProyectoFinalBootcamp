@@ -3,6 +3,8 @@
     package="com.example.proyectofinal">
     <!-- Permisos de la aplicacion -->
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -11,26 +13,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoFinal">
+        <activity
+            android:name="com.example.proyectofinal.UI.DetalleUI.LugarActivity"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name="com.example.proyectofinal.UI.MainUI.MainActivity"
+            android:exported="false" />
 
-        <meta-data android:name="com.google.android.geo.API_KEY" android:value="@string/android_sdk_places_api_key"/>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/android_sdk_places_api_key" />
 
         <activity
-            android:name=".Mapas.MapsActivity"
+            android:name="com.example.proyectofinal.UI.MapsUI.MapsActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
-            android:name=".MenuPrincipal.MenuprincipalActivity"
+            android:name="com.example.proyectofinal.UI.MenuUI.MenuprincipalActivity"
             android:exported="false" />
         <activity
-            android:name=".Repassword.RepasswordActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SignUp.SignupActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SignIn.SigninActivity"
-            android:exported="false" />
-        <activity
-            android:name=".Splash.SplashActivity"
+            android:name="com.example.proyectofinal.UI.SplashUI.SplashActivity"
             android:exported="true"
             android:theme="@style/SplashTheme">
             <intent-filter>

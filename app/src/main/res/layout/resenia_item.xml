@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    android:layout_margin="20dp"
+    app:cardPreventCornerOverlap="true"
+    android:layout_marginTop="10dp">
+
+    <RelativeLayout
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/background_card_resenia"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:id="@+id/txtLugarResenia"
+            android:text="Machu Picchu"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+        <TextView
+            android:id="@+id/txtNombreResenia"
+            android:text="By: Gustavo La Madrid"
+            android:textSize="20sp"
+            android:layout_below="@+id/txtLugarResenia"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        <TextView
+            android:text="07/07/07"
+            android:id="@+id/txtFechaResenia"
+            android:layout_marginTop="10dp"
+            android:textSize="10sp"
+            android:layout_below="@+id/txtNombreResenia"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+        <ImageView
+            android:maxHeight="90dp"
+            android:src="@drawable/ic_geography"
+            style="@style/homeCardImage" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

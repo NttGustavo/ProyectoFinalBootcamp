@@ -4,10 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragments.Home.HomeFragment">
+    tools:context=".UI.MenuUI.FragmentsMenuUI.Home.HomeFragment">
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/recycler_lugares">
     </androidx.recyclerview.widget.RecyclerView>
+    <LinearLayout
+        android:id="@+id/linearVacio"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:src="@drawable/sad_emoji">
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:textSize="30dp"
+            android:fontFamily="sans-serif-black"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:text="No hay lugares turisiticos encontrados"/>
+    </LinearLayout>
 </RelativeLayout>

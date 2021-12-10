@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_gradient"
+    tools:context=".UI.MenuUI.FragmentsMenuUI.Favoritos.FavoritosFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_favoritos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:fadeScrollbars="false"
+        android:padding="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:listitem="@layout/favoritos_item" />
+
+    <LinearLayout
+        android:id="@+id/linearVacio"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:src="@drawable/sad_emoji">
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:textSize="30dp"
+            android:fontFamily="sans-serif-black"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:text="No hay elementos favoritos guardados"/>
+    </LinearLayout>
+
+
+</FrameLayout>

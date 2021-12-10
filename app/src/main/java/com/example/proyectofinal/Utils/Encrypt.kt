@@ -14,7 +14,7 @@ class Encrypt {
     companion object{
         fun encrypt(strToEncrypt: String, secret_key: String): String? {
             Security.addProvider(BouncyCastleProvider())
-            var keyBytes: ByteArray
+            val keyBytes: ByteArray
 
             try {
                 keyBytes = secret_key.toByteArray(charset("UTF8"))
@@ -53,7 +53,7 @@ class Encrypt {
 
             return null
         }
-
+        /*
         fun decryptWithAES(key: String, strToDecrypt: String?): String? {
             Security.addProvider(BouncyCastleProvider())
             var keyBytes: ByteArray
@@ -92,6 +92,6 @@ class Encrypt {
 
             return null
         }
+        */
     }
-
 }
